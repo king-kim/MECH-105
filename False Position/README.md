@@ -11,5 +11,6 @@ This algorithm is a MATLAB function file that find the roots of an input functio
 * fx - function evaluated at the root location
 * ea - approximate relative error (%)
 * iter - number of iterations performed
-#### Side Note
-As this is a closed method, the upper and lower guess (inputs: xu & xl) must bracket the root, otherwise the function will display an error.
+### Possible Errors
+* This function requires at least three input arguments ('func', 'xl', & 'xu'), if less then three are entered the function will display an error. If no input is entered for 'es' or 'maxiter' they will be set to their default, but no error will result.
+* As this is a closed method, the upper and lower guess (inputs: 'xu' & 'xl') must bracket the root, otherwise the function will display an error.
