@@ -5,7 +5,7 @@ _Note: Since the composite Simpson's 1/3 rule only works with an even number of 
 * x - vector of experimentally found function values 'x' where 'x' is the independent variable     
   _Note: The values of 'x' must be equally spaced_  
 * y - vector of experimentally found function values 'y' where 'y' is the dependent variables
-## Output
+## Output 
 * I - integral estimate
 ## Posible Errors
 * Inputted vectors 'x' & 'y' must have the same dimensions, otherwise the function will display an error 
