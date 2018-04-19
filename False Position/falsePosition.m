@@ -1,5 +1,5 @@
 function [ root,fx,ea,iter ] = falsePosition(func,xl,xu,es,maxiter)
-% this function finds the roots of an input function using the bisection method
+% this function finds the roots of an input function using the false position method
 % inputs:
 %   func - function being evaluated
 %   xl - lower guess
