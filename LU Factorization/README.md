@@ -6,6 +6,6 @@ This algorith is a MATLAB function file that implements LU factorization with pi
 * L - lower triangular matrix
 * U - upper triangular matrix
 * P - pivot matrix
-## Possible Errors
+## Limitations
 * The coefficient matrix 'A', must be a square matrix, otherwise the function will display an error
 
