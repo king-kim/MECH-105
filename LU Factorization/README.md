@@ -1,5 +1,5 @@
 # LU Factorization Function
-This algorith is a MATLAB function file that implements LU factorization with pivoting for any inputted square matrix
+This algorithm is a MATLAB function file that implements LU factorization with pivoting for any inputted square matrix. This is useful for solving systems of equations using the definitions: [P][A]=[L][U] & [L]{d}=[P]{b} >> [U]{x}={d}
 ## Input
 * A - coefficient matrix
 ## Outputs
